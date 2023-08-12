@@ -1,0 +1,23 @@
+using GiangNLH_PH26511.Winform.Domain;
+using GiangNLH_PH26511.Winform.Views;
+
+namespace GiangNLH_PH26511.Winform
+{
+    internal static class Program
+    {
+       
+
+
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new SachForm());
+        }
+    }
+}
